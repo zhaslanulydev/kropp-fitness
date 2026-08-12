@@ -6,5 +6,7 @@ export default {
     'selector-not-notation': null,
     'comment-empty-line-before': null,
     'value-keyword-case': null,
+    'font-family-name-quotes': null,
+    'import-notation': 'string',
   },
 }
