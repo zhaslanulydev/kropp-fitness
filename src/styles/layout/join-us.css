@@ -108,6 +108,10 @@
 }
 
 @media (max-width: 767px) {
+  .join-us-video-wrapper {
+    padding-block: 70px;
+  }
+
   .join-us-video-play-button {
     width: 140px;
   }
