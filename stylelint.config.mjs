@@ -11,6 +11,8 @@ export default {
     'at-rule-empty-line-before': null,
     'media-feature-range-notation': null,
     'no-descending-specificity': null,
+    'property-no-vendor-prefix': null,
+    'selector-attribute-quotes': null,
     'import-notation': 'string',
   },
 }
