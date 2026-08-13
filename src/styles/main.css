@@ -8,6 +8,7 @@
 @import 'utilities/backdrop-title.css';
 
 @import 'components/button.css';
+@import 'components/input.css';
 
 @import 'layout/header.css';
 @import 'layout/banner.css';
