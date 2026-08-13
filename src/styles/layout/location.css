@@ -31,3 +31,20 @@
     margin-bottom: 37px;
   }
 }
+
+@media (max-width: 1024px) {
+  .location-inner {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 767px) {
+  .location-body {
+    padding-block: 40px;
+  }
+
+  .location-description:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
