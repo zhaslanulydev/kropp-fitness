@@ -74,6 +74,11 @@
 
 .footer-subscribe-input {
   padding-right: 70px;
+
+  &:focus + .footer-subscribe-button {
+    border-color: transparent;
+    filter: invert(1);
+  }
 }
 
 .footer-subscribe-button {
@@ -87,7 +92,7 @@
   border-radius: 50%;
 
   &:hover {
-    background-color: var(--color-light-gray);
+    rotate: 45deg;
   }
 }
 
