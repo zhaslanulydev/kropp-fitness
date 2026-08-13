@@ -15,6 +15,10 @@
   color: var(--color-light);
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 @media (max-width: 767px) {
   .section-description {
     font-size: 16px;
