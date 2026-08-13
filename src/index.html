@@ -14,6 +14,44 @@
     <script src="./scripts/main.js" defer></script>
   </head>
   <body>
-    <h1>Kropp Fitness</h1>
+    <header class="header">
+      <a class="header-logo" href="/">
+        <img
+          class="header-logo-image"
+          src="./assets/images/logo.png"
+          alt="Kropp Logo"
+          width="135"
+          height="25"
+        />
+      </a>
+      <nav class="header-menu">
+        <ul class="header-menu-list">
+          <li class="header-menu-item">
+            <a class="header-menu-link is-current" href="/">Home</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="/">Pages</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="/">Portfolio</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="/">Blog</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="/">Shop</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="header-book-button button" type="button">Book now</button>
+        <button class="header-burger-button" type="button" title="Open menu">
+          <span class="visually-hidden">Open menu</span>
+          <span class="header-burger-button-line"></span>
+          <span class="header-burger-button-line"></span>
+          <span class="header-burger-button-line"></span>
+        </button>
+      </div>
+    </header>
   </body>
 </html>
