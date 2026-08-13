@@ -116,3 +116,46 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .calculate {
+    padding-block: 100px;
+  }
+
+  .calculate-inner {
+    column-gap: 20px;
+  }
+
+  .calculate-form-body {
+    grid-template-columns: 1fr;
+  }
+
+  .calculate-button {
+    width: 100%;
+  }
+
+  .calculate-table {
+    & :is(td, th) {
+      padding-block: 10px;
+    }
+
+    & tfoot td {
+      padding-top: 10px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .calculate {
+    padding-block: 60px;
+  }
+
+  .calculate-inner {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .calculate-table-wrapper::before {
+    display: none;
+  }
+}
